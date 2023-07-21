@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-50 border-b-2 border-blue-800 py-2 sticky top-0  right-0 left-0">
+      <nav className="bg-gray-50 border-b-2 border-red-500 py-2 sticky top-0  right-0 left-0">
         <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
           <div>
             <Link href="/">
@@ -20,25 +20,25 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-zinc-900">
+          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-slate-900-500 font-semibold">
             <li>
-              <Link className="hover:text-blue-800" href="/">
+              <Link className="hover:text-red-500" href="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-800" href="#about">
+              <Link className="hover:text-red-500" href="#about">
                 About us
               </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-800" href="/services">
+              <Link className="hover:text-red-500" href="/services">
                 Services
               </Link>
             </li>
 
             <li>
-              <Link className="hover:text-blue-800" href="#contact">
+              <Link className="hover:text-red-500" href="#contact">
                 Contact
               </Link>
             </li>

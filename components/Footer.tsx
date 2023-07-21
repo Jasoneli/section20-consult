@@ -7,8 +7,8 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="px-10 py-5 bg-[#102e4a] text-textGray">
-      <div className="grid grid-cols-3 justify-between items-center gap-8">
-        <div className="flex justify-center items-center gap-5">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
           <Link href="/">
             <img
               src="/images/logo.jpg"
@@ -21,35 +21,43 @@ const Footer = () => {
           </span>
         </div>
         <nav>
-          <ul className="flex items-center text-textGray justify-between gap-5 tracking-wide font-semibold">
+          <ul className="lg:flex grid grid-cols-2 items-center text-textGray justify-between gap-5 tracking-wide font-semibold">
             <li>
-              <Link className="hover:text-blue-800" href="/">
+              <Link className="hover:text-red-500" href="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-800" href="#about">
+              <Link className="hover:text-red-500" href="#about">
                 About us
               </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-800" href="/services">
+              <Link className="hover:text-red-500" href="/services">
                 Services
               </Link>
             </li>
 
             <li>
-              <Link className="hover:text-blue-800" href="#contact">
+              <Link className="hover:text-red-500" href="#contact">
                 Contact
               </Link>
             </li>
           </ul>
         </nav>
         <div className="flex items-center gap-8 justify-end">
-          <AiOutlineWhatsApp />
-          <FaTwitter />
-          <AiOutlineInstagram />
-          <FaFacebookF />
+          <Link href="tel:054426285">
+            <AiOutlineWhatsApp />
+          </Link>
+          <Link href="twitter.com">
+            <FaTwitter />
+          </Link>
+          <Link href="instagram.com">
+            <AiOutlineInstagram />
+          </Link>
+          <Link href="facebook.com">
+            <FaFacebookF />
+          </Link>
         </div>
       </div>
     </footer>
