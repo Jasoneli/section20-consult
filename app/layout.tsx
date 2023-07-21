@@ -1,10 +1,13 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Raleway } from "next/font/google";
 import Footer from "@/components/Footer";
 
-const poppins = Poppins({ weight: ["400", "500", "700"], subsets: ["latin"] });
+const raleway = Raleway({
+  weight: ["100", "300", "400", "700", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-gray-50 ${poppins.className}`}>
+      <body className={`bg-gray-50 ${raleway.className}`}>
         <Navbar />
         {children}
         <Footer />

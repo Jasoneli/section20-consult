@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-50 border-b-2 border-red-500 py-2 sticky top-0  right-0 left-0">
+      <nav className="bg-white border-b-2 border-red-500 py-2 sticky top-0  right-0 left-0">
         <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
           <div>
             <Link href="/">
