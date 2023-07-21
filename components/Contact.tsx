@@ -46,7 +46,7 @@ const Contact = () => {
             />
           </div>
           <button
-            className="bg-textColor font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center hover:opacity-80"
+            className="bg-red-500 text-white font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center hover:opacity-80 hover:bg-textColor hover:text-white"
             type="submit"
           >
             <span className="flex text-center justify-center items-center gap-4">
