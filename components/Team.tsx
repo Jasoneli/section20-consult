@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <section>
       <div className="max-w-6xl p-4 mx-auto container">
-        <h2 className="text-lg lg:text-4xl  uppercase font-bold text-center">
+        <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
           Meet Our Expert Consultants
         </h2>
         <p className="lg:text-center text-left text-base lg:text-lg mt-2 font-semibold text-[#7d7c83]">

@@ -4,10 +4,10 @@ const Resources = () => {
   return (
     <section className="bg-[#e9e9e7]  my-20 text-textColor">
       <div className="max-w-6xl mx-auto px-5 py-10 container">
-        <h2 className="text-2xl lg:text-4xl  uppercase font-bold text-center">
+        <h2 className="text-2xl lg:text-4xl  uppercase font-bold lg:text-center">
           Resources
         </h2>
-        <p className="text-center text-base lg:text-lg mt-2 font-semibold text-[#7d7c83]">
+        <p className="lg:text-center text-base lg:text-lg mt-2 font-semibold text-[#7d7c83]">
           Stay Informed with Our Informative Resources
         </p>
       </div>

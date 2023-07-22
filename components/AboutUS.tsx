@@ -5,7 +5,9 @@ const AboutUS = () => {
   return (
     <section id="about" className="my-10">
       <div className="container max-w-6xl p-4 mx-auto text-textColor">
-        <h2 className="text-4xl  uppercase font-bold text-center">About us</h2>
+        <h2 className="text-2xl lg:text-4xl  uppercase font-bold text-center">
+          About us
+        </h2>
         <p className="text-center text-base lg:text-lg mt-2 font-semibold text-[#7d7c83]">
           Our Vision: Empowering Your Dreams
         </p>

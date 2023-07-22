@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="my-10 text-background">
       <div className="container max-w-6xl mx-auto bg-textColor p-20 rounded-md shadow-2xl">
-        <h2 className="text-4xl  uppercase font-semibold text-center">
+        <h2 className="text-2xl lg:text-4xl uppercase font-semibold lg:text-center">
           Reach Out Today!
         </h2>
         <p className="text-base lg:text-lg mt-2 font-medium text-left">
