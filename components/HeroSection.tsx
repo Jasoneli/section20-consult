@@ -11,7 +11,7 @@ const HeroSection = () => {
             Welcome to <span className="text-primary">Section20 Consult</span>{" "}
             &mdash; Your Path to Success!
           </h1>
-          <p className="text-base font-medium text-textColor lg:text-lg">
+          <p className="text-base font-medium text-[#7d7c83] lg:text-lg">
             We are a leading study and work consulting firm dedicated to
             empowering students and professionals in achieving their academic
             and career goals. With our expert guidance and personalized

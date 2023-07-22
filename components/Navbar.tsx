@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="py-2 px-4">
+      <nav className="py-2 px-4 border-b-2 border-primary">
         <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
           <div>
             <Link href="/">

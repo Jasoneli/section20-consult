@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 
-const raleway = Raleway({
+const inter = Inter({
   weight: ["100", "300", "400", "700", "900"],
   subsets: ["latin"],
 });
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-background ${raleway.className}`}>
+      <body className={`bg-background ${inter.className}`}>
         <Navbar />
         {children}
         <Footer />

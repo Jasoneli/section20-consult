@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="px-10 py-5 text-textColor border-t-2 border-primary mt-20">
-      <div className="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-8">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-4">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
           <Link href="/">
             <img
@@ -21,7 +21,7 @@ const Footer = () => {
           </span>
         </div>
         <nav>
-          <ul className="lg:flex grid grid-cols-2 items-center text-textGray justify-between gap-5 tracking-wide font-semibold">
+          <ul className="lg:flex grid grid-cols-2 items-center text-textGray  gap-5 tracking-wide font-semibold">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
