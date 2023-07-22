@@ -5,22 +5,18 @@ const AboutUS = () => {
   return (
     <section id="about" className="my-10">
       <div className="container max-w-6xl p-4 mx-auto text-textColor">
-        <h2 className="text-4xl  uppercase font-semibold text-center">
-          About us
-        </h2>
+        <h2 className="text-4xl  uppercase font-bold text-center">About us</h2>
+        <p className="text-center text-base lg:text-lg mt-2 font-semibold">
+          Our Vision: Empowering Your Dreams
+        </p>
         <article className="flex flex-col  gap-8 p-4 justify-center items-center">
-          <p className="text-base text-center lg:text-left order-1 lg:order-none lg:text-lg font-medium">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            est consectetur alias incidunt quo facere possimus ex dolorum
-            officia commodi. Company assists foreign applicants in obtaining
-            higher education in Ukraine. We are one of the leading companies in
-            the industry. We work with 33 countries. We are not an intermediary,
-            we have direct contracts with universities. We graduated more than
-            13 000 students. The Business Center “INGEK” is a team of experts
-            who help foreign applicants get higher education in Ukraine. Thanks
-            to our diligent training for 17 years, the best universities have
-            chosen to work with us. Today we offer you admission and training in
-            accordance with the European standards.
+          <p className="text-base text-left order-1 lg:order-none lg:text-lg font-medium ">
+            At Section20 Consult, our vision is to become the ultimate catalyst
+            for your dreams. We are driven by the belief that everyone deserves
+            the opportunity to excel in their chosen field and explore global
+            possibilities. With a team of experienced consultants and industry
+            experts, we are committed to providing tailored solutions that match
+            your unique aspirations.
           </p>
 
           <Image

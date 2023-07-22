@@ -45,19 +45,22 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex items-center gap-8 justify-end">
-          <Link className="hover:text-red-500 text-2xl" href="tel:054426285">
-            <AiOutlineWhatsApp />
-          </Link>
-          <Link className="hover:text-red-500 text-2xl" href="twitter.com">
-            <FaTwitter />
-          </Link>
-          <Link className="hover:text-red-500 text-2xl" href="instagram.com">
-            <AiOutlineInstagram />
-          </Link>
-          <Link className="hover:text-red-500 text-2xl" href="facebook.com">
-            <FaFacebookF />
-          </Link>
+        <div className="flex flex-col items-center gap-4 justify-end">
+          <p className="font-bold">Follow us or contact us on:</p>
+          <div className="flex gap-2">
+            <Link className="hover:text-red-500 text-2xl" href="tel:054426285">
+              <AiOutlineWhatsApp />
+            </Link>
+            <Link className="hover:text-red-500 text-2xl" href="twitter.com">
+              <FaTwitter />
+            </Link>
+            <Link className="hover:text-red-500 text-2xl" href="instagram.com">
+              <AiOutlineInstagram />
+            </Link>
+            <Link className="hover:text-red-500 text-2xl" href="facebook.com">
+              <FaFacebookF />
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

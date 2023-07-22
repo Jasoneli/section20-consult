@@ -5,16 +5,19 @@ import React from "react";
 const HeroSection = () => {
   return (
     <header className="py-20 lg:min-h-screen">
-      <div className="container max-w-6xl mx-auto flex md:justify-between justify-center items-center gap-4 p-4">
+      <div className="container max-w-6xl mx-auto flex lg:justify-between justify-center items-center   gap-5 p-8 lg:items-start">
         <div className="flex flex-col lg:items-start justify-center items-center text-center lg:text-left gap-5 text-textColor">
-          <h1 className="md:text-7xl font-bold text-3xl">
-            Welcome to <span className="text-primary">Section20 Consult</span>
+          <h1 className="lg:text-6xl font-bold text-2xl">
+            Welcome to <span className="text-primary">Section20 Consult</span>{" "}
+            &mdash; Your Path to Success!
           </h1>
           <p className="text-base font-medium text-textColor lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            quibusdam iusto, laborum maxime corrupti nulla aspernatur mollitia
-            repudiandae expedita voluptatem. Magnam nesciunt dolores corporis
-            commodi.
+            We are a leading study and work consulting firm dedicated to
+            empowering students and professionals in achieving their academic
+            and career goals. With our expert guidance and personalized
+            approach, we strive to unlock your full potential and pave the way
+            for a successful future. Explore our range of services and
+            let&apos;s embark on this exciting journey together!
           </p>
           <div className="flex flex-col md:flex-row gap-5 md:gap-10">
             <Link

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiOutlineSend } from "react-icons/ai";
 
 const Contact = () => {
@@ -5,11 +6,23 @@ const Contact = () => {
     <section id="contact" className="my-10 text-background">
       <div className="container max-w-6xl mx-auto bg-textColor p-20 rounded-md shadow-2xl">
         <h2 className="text-4xl  uppercase font-semibold text-center">
-          Contact us
+          Reach Out Today!
         </h2>
-        <p className="text-center text-base lg:text-lg mt-2 font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-          illum.
+        <p className="text-base lg:text-lg mt-2 font-medium text-left">
+          We&apos;re eager to hear from you and help you start your journey
+          towards success. For inquiries, fill out the form below, email us at{" "}
+          <Link
+            className="font-bold text-2xl text-rose-300"
+            href="mailto:info@example.com"
+          >
+            info@section20consult.com
+          </Link>
+          , or give us a call at{" "}
+          <span className="font-bold text-xl text-rose-300">+36705780067</span>{" "}
+          or{" "}
+          <span className="font-bold text-xl text-rose-300">+233544262825</span>{" "}
+          . Our office is located at Lapaz, Accra, Ghana. Let&apos;s connect and
+          discuss how we can support your aspirations.
         </p>
 
         <form className="mt-5 flex flex-col lg:grid lg:grid-cols-3  lg:justify-center lg:items-end gap-5">
