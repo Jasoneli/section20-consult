@@ -29,7 +29,7 @@ const EHAC = () => {
             width={600}
             height={600}
             alt="school logo"
-            className="rounded-xl shadow-2xl"
+            className="rounded-xl shadow-2xl hidden lg:block"
           />
         </div>
       </div>

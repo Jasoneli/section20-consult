@@ -12,16 +12,15 @@ const Contact = () => {
           We&apos;re eager to hear from you and help you start your journey
           towards success. For inquiries, fill out the form below, email us at{" "}
           <Link
-            className="font-bold text-2xl text-rose-300"
+            className="font-bold text-rose-300"
             href="mailto:info@example.com"
           >
             info@section20consult.com
           </Link>
           , or give us a call at{" "}
-          <span className="font-bold text-xl text-rose-300">+36705780067</span>{" "}
-          or{" "}
-          <span className="font-bold text-xl text-rose-300">+233544262825</span>{" "}
-          . Our office is located at Lapaz, Accra, Ghana. Let&apos;s connect and
+          <span className="font-bold text-rose-300">+36705780067</span> or{" "}
+          <span className="font-bold text-rose-300">+233544262825</span> . Our
+          office is located at Lapaz, Accra, Ghana. Let&apos;s connect and
           discuss how we can support your aspirations.
         </p>
 
