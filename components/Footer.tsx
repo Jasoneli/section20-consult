@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="px-10 py-5 bg-[#102e4a] text-textGray">
+    <footer className="px-10 py-5 text-textColor border-t-2 border-primary mt-20">
       <div className="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-8">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
           <Link href="/">
@@ -16,7 +16,7 @@ const Footer = () => {
               className="rounded-full w-14 h-14 object-cover"
             />
           </Link>
-          <span className="font-medium">
+          <span className="font-semibold">
             &copy; {new Date().getFullYear()}. All Rights Reserved.
           </span>
         </div>
@@ -46,16 +46,16 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex items-center gap-8 justify-end">
-          <Link href="tel:054426285">
+          <Link className="hover:text-red-500 text-2xl" href="tel:054426285">
             <AiOutlineWhatsApp />
           </Link>
-          <Link href="twitter.com">
+          <Link className="hover:text-red-500 text-2xl" href="twitter.com">
             <FaTwitter />
           </Link>
-          <Link href="instagram.com">
+          <Link className="hover:text-red-500 text-2xl" href="instagram.com">
             <AiOutlineInstagram />
           </Link>
-          <Link href="facebook.com">
+          <Link className="hover:text-red-500 text-2xl" href="facebook.com">
             <FaFacebookF />
           </Link>
         </div>

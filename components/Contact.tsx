@@ -2,12 +2,12 @@ import { AiOutlineSend } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section id="contact" className="mt-10 bg-blue-800 text-textGray py-10">
-      <div className="container max-w-6xl p-4 mx-auto">
+    <section id="contact" className="my-10 text-background">
+      <div className="container max-w-6xl mx-auto bg-textColor p-20 rounded-md shadow-2xl">
         <h2 className="text-4xl  uppercase font-semibold text-center">
           Contact us
         </h2>
-        <p className="text-center text-base mt-2 font-medium">
+        <p className="text-center text-base lg:text-lg mt-2 font-semibold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
           illum.
         </p>
@@ -21,7 +21,7 @@ const Contact = () => {
               Name
             </label>
             <input
-              className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-gray-400 text-textColor"
+              className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor font-semibold"
               type="text"
               name="name"
               id="name"
@@ -37,7 +37,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-gray-400 text-textColor"
+              className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor font-semibold"
               type="email"
               name="email"
               id="email"
@@ -46,7 +46,7 @@ const Contact = () => {
             />
           </div>
           <button
-            className="bg-red-500 text-white font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center hover:opacity-80 hover:bg-textColor hover:text-white"
+            className="bg-accent text-background font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center  hover:opacity-90"
             type="submit"
           >
             <span className="flex text-center justify-center items-center gap-4">

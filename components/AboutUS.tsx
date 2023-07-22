@@ -4,12 +4,12 @@ import Link from "next/link";
 const AboutUS = () => {
   return (
     <section id="about" className="my-10">
-      <div className="container max-w-6xl p-4 mx-auto">
-        <h2 className="text-4xl text-textColor uppercase font-semibold text-center">
+      <div className="container max-w-6xl p-4 mx-auto text-textColor">
+        <h2 className="text-4xl  uppercase font-semibold text-center">
           About us
         </h2>
         <article className="flex flex-col  gap-8 p-4 justify-center items-center">
-          <p className="text-base text-center lg:text-left order-1 lg:order-none text-slate-600">
+          <p className="text-base text-center lg:text-left order-1 lg:order-none lg:text-lg font-medium">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             est consectetur alias incidunt quo facere possimus ex dolorum
             officia commodi. Company assists foreign applicants in obtaining
@@ -32,7 +32,7 @@ const AboutUS = () => {
           />
         </article>
         <Link
-          className="px-4 py-2 font-semibold tracking-wide text-xl  hover:translate-y-[-2px] duration-200 transition-all flex justify-center items-center text-center mt-4 underline uppercase text-red-500 hover:text-blue-700"
+          className="px-4 py-2 font-semibold tracking-wide text-xl  hover:translate-y-[-2px] duration-200 transition-all flex justify-center items-center text-center mt-4 underline uppercase text-accent hover:text-primary"
           href="/services"
         >
           View our services

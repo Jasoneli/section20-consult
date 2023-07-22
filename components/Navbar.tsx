@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white border-b-2 border-red-500 py-2 sticky top-0  right-0 left-0">
+      <nav className="py-2 px-4">
         <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
           <div>
             <Link href="/">
@@ -20,7 +20,7 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-slate-900-500 font-semibold">
+          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-textColor font-semibold">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
@@ -76,8 +76,8 @@ const Navbar = () => {
         {isOpen ? (
           <div
             id="menu"
-            className="absolute top-0 bottom-0 flex flex-col self-end  w-full min-h-screen py-1 pt-40 pl-12 spacy-3
-       text-lg text-white uppercase bg-textColor"
+            className="absolute right-0 top-0 bottom-0 flex flex-col gap-8 self-end w-2/3   h-screen py-1 pt-40 pl-12 spacy-3
+       text-xl text-white uppercase bg-primary font-semibold "
           >
             <Link
               href="/"
@@ -112,7 +112,7 @@ const Navbar = () => {
           <div
             id="menu"
             className="absolute top-0 bottom-0 hidden flex-col self-end  w-full min-h-screen py-1 pt-40 pl-12 spacy-3
-       text-lg text-white uppercase bg-black"
+       text-lg text-white uppercase bg-background"
           >
             <a href="" className="hover:text-pink-500">
               Home
