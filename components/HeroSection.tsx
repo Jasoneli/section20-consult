@@ -5,13 +5,13 @@ import React from "react";
 const HeroSection = () => {
   return (
     <header className="py-20 lg:min-h-screen">
-      <div className="container max-w-6xl mx-auto flex lg:justify-between justify-center items-center   gap-5 p-8 lg:items-start">
+      <div className="container max-w-6xl mx-auto flex lg:justify-between justify-center items-center gap-5 p-8 lg:items-start">
         <div className="flex flex-col lg:items-start  lg:text-left gap-5 text-textColor">
           <h1 className="lg:text-6xl font-bold text-3xl">
             Welcome to <span className="text-primary">Section20 Consult</span>{" "}
             &mdash; Your Path to Success!
           </h1>
-          <p className="font-medium text-[#7d7c83] lg:text-xl">
+          <p className="font-medium text-dark lg:text-xl">
             We are a leading study and work consulting firm dedicated to
             empowering students and professionals in achieving their academic
             and career goals. With our expert guidance and personalized

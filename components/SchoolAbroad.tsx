@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const SchoolAbroad = () => {
   return (
-    <div className="max-w-6xl container mx-auto p-4 my-20">
-      <div className="flex flex-col md:flex-row justify-between gap-16">
+    <div className="max-w-6xl container mx-auto p-4 lg:mb-20">
+      <div className="flex flex-col md:flex-row justify-between gap-10">
         <div className="flex-1 flex flex-col gap-8">
           <h3 className="text-lg text-primary font-semibold uppercase tracking-wide flex items-center gap-4">
             <span className="font-bold text-3xl bg-[#d2d2cf] p-4 rounded-full text-center">
@@ -13,7 +13,7 @@ const SchoolAbroad = () => {
             </span>
             <span> School Abroad Programs</span>
           </h3>
-          <p className="text-lg text-accent">
+          <p className="text-lg text-dark">
             Explore the world of international education with our carefully
             curated study abroad programs. Whether you're a high school graduate
             seeking a bachelor's degree abroad or a professional looking to

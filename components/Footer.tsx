@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
-import { AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiOutlineInstagram,
+  AiOutlineWhatsApp,
+  AiOutlineYoutube,
+} from "react-icons/ai";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -11,9 +16,9 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
           <Link href="/">
             <img
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="logo"
-              className="rounded-full w-14 h-14 object-cover"
+              className="rounded-full w-28 h-20 object-cover"
             />
           </Link>
           <span className="font-semibold">
@@ -21,7 +26,7 @@ const Footer = () => {
           </span>
         </div>
         <nav>
-          <ul className="lg:flex grid grid-cols-2 items-center text-textGray  gap-5 tracking-wide font-semibold">
+          <ul className="lg:flex grid grid-cols-2 items-center text-textGray  gap-5 tracking-wide font-semibold uppercase">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
@@ -30,6 +35,11 @@ const Footer = () => {
             <li>
               <Link className="hover:text-red-500" href="#about">
                 About us
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-red-500" href="/ehac">
+                EHAC
               </Link>
             </li>
             <li>
@@ -48,17 +58,47 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4 justify-end">
           <p className="font-bold">Follow us or contact us on:</p>
           <div className="flex gap-2">
-            <Link className="hover:text-red-500 text-2xl" href="tel:054426285">
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://wa.me/233544262825"
+              target="_blank"
+            >
               <AiOutlineWhatsApp />
             </Link>
-            <Link className="hover:text-red-500 text-2xl" href="twitter.com">
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://twitter.com/@S20consult"
+              target="_blank"
+            >
               <FaTwitter />
             </Link>
-            <Link className="hover:text-red-500 text-2xl" href="instagram.com">
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://www.instagram.com/section20consult"
+              target="_blank"
+            >
               <AiOutlineInstagram />
             </Link>
-            <Link className="hover:text-red-500 text-2xl" href="facebook.com">
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://www.facebook.com/section20consult"
+              target="_blank"
+            >
               <FaFacebookF />
+            </Link>
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://www.youtube.com/channel/YourChannelID"
+              target="_blank"
+            >
+              <AiOutlineYoutube />
+            </Link>
+            <Link
+              className="hover:text-red-500 text-2xl"
+              href="https://www.linkedin.com/company/section-20-consult"
+              target="_blank"
+            >
+              <AiFillLinkedin />
             </Link>
           </div>
         </div>

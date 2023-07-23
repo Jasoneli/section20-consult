@@ -1,26 +1,43 @@
 import Link from "next/link";
+import { title } from "process";
 import { AiOutlineSend } from "react-icons/ai";
 
-const Contact = () => {
+const Contact = ({
+  title,
+  description = " We&apos;re eager to hear from you and help you start your journey towards success. For inquiries, fill out the form below, email us at",
+}: {
+  description: string;
+  title?: string;
+}) => {
   return (
     <section id="contact" className="my-10 text-background">
       <div className="container max-w-6xl mx-auto bg-textColor p-20 rounded-md shadow-2xl">
-        <h2 className="text-2xl lg:text-4xl uppercase font-semibold lg:text-center">
-          Reach Out Today!
-        </h2>
+        {title === "ehac" ? (
+          <h2 className="text-2xl lg:text-4xl uppercase font-semibold lg:text-center">
+            Get In Touch!
+          </h2>
+        ) : (
+          <h2 className="text-2xl lg:text-4xl uppercase font-semibold lg:text-center">
+            Reach Out Today!
+          </h2>
+        )}
         <p className="text-base lg:text-lg mt-2 font-medium text-left">
-          We&apos;re eager to hear from you and help you start your journey
-          towards success. For inquiries, fill out the form below, email us at{" "}
+          {description}{" "}
           <Link
             className="font-bold text-rose-300"
-            href="mailto:info@example.com"
+            href="mailto:info@section20consult.com"
           >
             info@section20consult.com
           </Link>
           , or give us a call at{" "}
-          <span className="font-bold text-rose-300">+36705780067</span> or{" "}
-          <span className="font-bold text-rose-300">+233544262825</span> . Our
-          office is located at Lapaz, Accra, Ghana. Let&apos;s connect and
+          <Link href="tel:+36705780067" className="font-bold text-rose-300">
+            +36705780067
+          </Link>{" "}
+          or{" "}
+          <Link href="tel:+233544262825" className="font-bold text-rose-300">
+            +233544262825
+          </Link>{" "}
+          . Our office is located at Lapaz, Accra, Ghana. Let&apos;s connect and
           discuss how we can support your aspirations.
         </p>
 

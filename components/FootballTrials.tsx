@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const FootballTrials = () => {
   return (
-    <div className="max-w-6xl container mx-auto p-4 my-20">
-      <div className="flex flex-col md:flex-row justify-between gap-16">
+    <div className="max-w-6xl container mx-auto p-4 lg:mb-20">
+      <div className="flex flex-col md:flex-row justify-between lg:gap-10">
         <div className="">
           <Image
             src="/images/fb.jpg"
@@ -22,7 +22,7 @@ const FootballTrials = () => {
             </span>
             <span>Football Trial Programs</span>
           </h3>
-          <p className="text-lg text-accent">
+          <p className="text-lg text-dark">
             Unleash your true potential and find the career path that aligns
             with your passions and strengths. Our career counseling services
             provide personalized assessments and in-depth consultations to help

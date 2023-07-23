@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,18 +10,18 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="py-2 px-4 border-b-2 border-primary">
+      <nav className="px-4">
         <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
           <div>
             <Link href="/">
               <img
-                src="/images/logo.jpg"
-                alt=""
-                className="rounded-full w-14 h-14 object-cover"
+                src="/images/logo.png"
+                alt="logo"
+                className="rounded-full w-40 h-20 object-cover"
               />
             </Link>
           </div>
-          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-textColor font-semibold">
+          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-textColor font-semibold uppercase">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
@@ -29,6 +30,11 @@ const Navbar = () => {
             <li>
               <Link className="hover:text-red-500" href="#about">
                 About us
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-red-500" href="/ehac">
+                EHAC
               </Link>
             </li>
             <li>
@@ -77,7 +83,7 @@ const Navbar = () => {
           <div
             id="menu"
             className="absolute right-0 top-0 bottom-0 flex flex-col gap-8 self-end w-2/3   h-screen py-1 pt-40 pl-12 spacy-3
-       text-xl text-white uppercase bg-primary font-semibold "
+       text-xl text-white  bg-primary font-semibold uppercase"
           >
             <Link
               href="/"
@@ -92,6 +98,13 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               About us
+            </Link>
+            <Link
+              className="hover:text-red-500"
+              href="/ehac"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              EHAC
             </Link>
             <Link
               href="/services"
@@ -112,14 +125,17 @@ const Navbar = () => {
           <div
             id="menu"
             className="absolute top-0 bottom-0 hidden flex-col self-end  w-full min-h-screen py-1 pt-40 pl-12 spacy-3
-       text-lg text-white uppercase bg-background"
+       text-lg text-white  bg-background uppercase"
           >
-            <a href="" className="hover:text-pink-500">
+            <Link href="/" className="hover:text-pink-500">
               Home
-            </a>
+            </Link>
             <a href="" className="hover:text-pink-500">
               About us
             </a>
+            <Link className="hover:text-red-500" href="/ehac">
+              EHAC
+            </Link>
             <a href="" className="hover:text-pink-500">
               Services
             </a>

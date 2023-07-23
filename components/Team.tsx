@@ -7,7 +7,7 @@ const Team = () => {
     <section>
       <div className="max-w-6xl p-4 mx-auto container">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
-          Meet Our Expert Consultants
+          Meet Our Team
         </h2>
         <p className="lg:text-center text-left text-base lg:text-lg mt-2 font-semibold text-[#7d7c83]">
           At Section20 Consult, our success lies in the expertise and dedication
@@ -19,10 +19,10 @@ const Team = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2  justify-between items-center gap-10">
           <div className="flex flex-col lg:flex-row gap-5 items-center">
             <Image
-              className="rounded-full object-cover shadow-2xl"
-              src="/images/ceo-1.jpg"
-              width={250}
-              height={250}
+              className="rounded-lg object-cover shadow-2xl"
+              src="/images/ceo.jpg"
+              width={200}
+              height={200}
               alt="ceo"
             />
             <div>
@@ -31,7 +31,7 @@ const Team = () => {
                 Founder & CEO
               </small>
               <p>
-                <Link className="hover:text-accent" href="">
+                <Link className="hover:text-accent" href="tel:+36705780067">
                   +36705780067
                 </Link>
               </p>
@@ -47,19 +47,19 @@ const Team = () => {
           </div>
           <div className="flex flex-col lg:flex-row gap-5 items-center">
             <Image
-              className="rounded-full object-cover shadow-2xl"
+              className="rounded-lg object-cover shadow-2xl"
               src="/images/ceo-2.jpg"
-              width={250}
-              height={250}
+              width={200}
+              height={200}
               alt="ceo"
             />
             <div>
-              <h3 className="font-bold text-xl">Emily Johnson</h3>
+              <h3 className="font-bold text-xl">Elizabeth Kesse</h3>
               <small className="text-[#7d7c83] font-semibold">
-                Jobs Abroad Consultant
+                Ghana Branch Manager
               </small>
               <p>
-                <Link className="hover:text-accent" href="">
+                <Link className="hover:text-accent" href="tel:+233543955902">
                   +233543955902
                 </Link>
               </p>

@@ -18,6 +18,7 @@ module.exports = {
         primary: "hsl(237, 40%, 33%)",
         secondary: "hsl(269, 39%, 80%)",
         accent: "hsl(208, 40%, 40%)",
+        dark: "#7d7c83",
       },
     },
   },

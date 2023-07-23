@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const JobsAbroad = () => {
   return (
-    <div className="max-w-6xl container mx-auto p-4 my-20">
-      <div className="flex flex-col md:flex-row justify-between gap-16">
+    <div className="max-w-6xl container mx-auto p-4 lg:mb-20">
+      <div className="flex flex-col md:flex-row justify-between lg:gap-10">
         <div className="">
           <Image
             src="/images/work.jpg"
@@ -22,7 +22,7 @@ const JobsAbroad = () => {
             </span>
             <span> Jobs Abroad Programs</span>
           </h3>
-          <p className="text-lg text-accent">
+          <p className="text-lg text-dark">
             Maximize your chances of landing your dream job with our
             comprehensive job placement assistance. We maintain strong
             connections with a vast network of employers across various
