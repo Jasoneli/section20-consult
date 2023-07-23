@@ -12,8 +12,8 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="px-10 py-5 bg-textColor text-background mt-20">
-      <div className="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-4">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
+      <div className=" lg:grid grid-cols-2  lg:grid-cols-3 justify-between items-center gap-4">
+        <div className="flex flex-row  items-center gap-5 mb-4">
           <Link href="/">
             <img
               src="/images/logo-white.jpg"
@@ -25,8 +25,8 @@ const Footer = () => {
             &copy; {new Date().getFullYear()}. All Rights Reserved.
           </span>
         </div>
-        <nav>
-          <ul className="lg:flex grid grid-cols-2 items-center text-textGray  gap-5 tracking-wide font-semibold uppercase text-xs">
+        <nav className="mb-4">
+          <ul className="lg:flex grid grid-cols-3 items-center text-textGray  gap-5 tracking-wide font-semibold uppercase text-xs">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
@@ -55,7 +55,7 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex flex-col items-center gap-4 justify-end">
+        <div className="flex flex-col  gap-4 justify-end">
           <p className="font-bold">Follow us or contact us on:</p>
           <div className="flex gap-2">
             <Link
