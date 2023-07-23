@@ -1,27 +1,54 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
+      const scrollPosition = window.scrollY;
+
+      const visibleThreshold = scrollHeight * 0.8;
+
+      setIsVisible(scrollPosition < visibleThreshold);
+    };
+
+    // Attach the event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <nav className="px-4">
-        <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between">
+      <motion.nav
+        initial={{ y: -100 }}
+        animate={{ y: isVisible ? 0 : -100 }}
+        transition={{ duration: 0.3 }}
+        className={`px-4 sticky top-0 left-0 w-full z-10 h-20 bg-primary shadow-lg`}
+      >
+        <div className="max-w-6xl container mx-auto flex  font-medium gap-4 items-center justify-between p-2">
           <div>
             <Link href="/">
               <img
-                src="/images/logo.png"
+                src="/images/logo-white.jpg"
                 alt="logo"
-                className="rounded-full w-40 h-20 object-cover"
+                className="rounded-full w-16 h-16 object-cover"
               />
             </Link>
           </div>
-          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-textColor font-semibold uppercase">
+          <ul className="hidden md:flex items-center justify-between gap-5 tracking-wide text-background font-semibold uppercase">
             <li>
               <Link className="hover:text-red-500" href="/">
                 Home
@@ -144,7 +171,7 @@ const Navbar = () => {
             </a>
           </div>
         )}
-      </nav>
+      </motion.nav>
     </>
   );
 };

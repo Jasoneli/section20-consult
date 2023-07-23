@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ScrollRevealSection from "./ScrollRevealSection";
 
 const Team = () => {
   return (
-    <section>
+    <ScrollRevealSection>
       <div className="max-w-6xl p-4 mx-auto container">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
           Meet Our Team
@@ -19,8 +20,8 @@ const Team = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2  justify-between items-center gap-10">
           <div className="flex flex-col lg:flex-row gap-5 items-center">
             <Image
-              className="rounded-lg object-cover shadow-2xl"
-              src="/images/ceo.jpg"
+              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
+              src="/images/team-1.jpg"
               width={200}
               height={200}
               alt="ceo"
@@ -47,8 +48,8 @@ const Team = () => {
           </div>
           <div className="flex flex-col lg:flex-row gap-5 items-center">
             <Image
-              className="rounded-lg object-cover shadow-2xl"
-              src="/images/ceo-2.jpg"
+              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
+              src="/images/team-1.jpg"
               width={200}
               height={200}
               alt="ceo"
@@ -75,7 +76,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-    </section>
+    </ScrollRevealSection>
   );
 };
 

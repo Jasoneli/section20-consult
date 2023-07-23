@@ -1,7 +1,9 @@
+import ScrollRevealSection from "./ScrollRevealSection";
+
 /* eslint-disable @next/next/no-img-element */
 const Partners = () => {
   return (
-    <section className="lg:my-10 ">
+    <ScrollRevealSection>
       <div className="max-w-6xl container p-4 mx-auto">
         <h2 className="text-2xl lg:text-4xl uppercase font-bold text-center">
           Our Partners
@@ -20,14 +22,14 @@ const Partners = () => {
             <img
               src="/images/p-2.jpg"
               alt="partner-2"
-              width={350}
-              height={350}
+              width={280}
+              height={300}
               className="partners-img"
             />
           </div>
         </div>
       </div>
-    </section>
+    </ScrollRevealSection>
   );
 };
 
