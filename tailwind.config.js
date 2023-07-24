@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         textColor: "hsl(60, 39%, 9%)",
-        background: "hsl(55, 40%, 94%)",
+        background: "hsl(54, 42%, 95%);",
         primary: "hsl(237, 40%, 33%)",
         secondary: "hsl(269, 39%, 80%)",
         accent: "hsl(208, 40%, 40%)",

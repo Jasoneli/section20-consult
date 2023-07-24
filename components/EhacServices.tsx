@@ -25,7 +25,7 @@ const EhacServices = () => {
                   </h3>
                 </div>
 
-                <p className="lg:text-center">
+                <p>
                   Before you set foot in your dream destination, it's essential
                   to be well-prepared. Our pre-departure health consultation
                   covers everything you need to know about vaccinations, travel
@@ -43,7 +43,7 @@ const EhacServices = () => {
                   </h3>
                 </div>
 
-                <p className="lg:text-center">
+                <p>
                   Studying or traveling abroad can expose you to new
                   environments and potential health risks. Our experts provide
                   ongoing support and guidance to help you navigate health
@@ -60,7 +60,7 @@ const EhacServices = () => {
                   </h3>
                 </div>
 
-                <p className="lg:text-center">
+                <p>
                   Your mental well-being is just as crucial as your physical
                   health. We offer resources and counseling services to address
                   the emotional aspects of studying abroad, homesickness,
