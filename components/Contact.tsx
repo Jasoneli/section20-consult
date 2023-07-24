@@ -5,7 +5,7 @@ import ScrollRevealSection from "./ScrollRevealSection";
 
 const Contact = ({
   title,
-  description = " We&apos;re eager to hear from you and help you start your journey towards success. For inquiries, fill out the form below, email us at",
+  description = " We're eager to hear from you and help you start your journey towards success. For inquiries, fill out the form below, email us at",
 }: {
   description?: string;
   title?: string;

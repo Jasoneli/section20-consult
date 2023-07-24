@@ -6,6 +6,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: var(--font-poppins);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-roboto);
+}
+
 /* hamburger menu */
 
 .hamburger {

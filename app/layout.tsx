@@ -1,12 +1,21 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins, Roboto } from "next/font/google";
 import Footer from "@/components/Footer";
 
-const inter = Inter({
-  weight: ["100", "300", "400", "700", "900"],
+const poppins = Poppins({
+  weight: ["300", "500", "700"],
   subsets: ["latin"],
+  variable: "--font-poppins",
+  display: "swap",
+});
+
+const roboto = Roboto({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -20,8 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`bg-background ${inter.className}`}>
+    <html
+      lang="en"
+      className={`bg-background ${poppins.variable} ${roboto.variable}`}
+    >
+      <body>
         <Navbar />
         {children}
         <Footer />

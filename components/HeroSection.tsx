@@ -10,8 +10,8 @@ const HeroSection = () => {
         <div className="container max-w-6xl mx-auto flex flex-col lg:flex-row justify-between  gap-5 p-4 items-start">
           <div className="flex flex-col lg:items-start  lg:text-left gap-5 text-textColor">
             <h1 className="lg:text-6xl font-bold text-3xl">
-              Welcome to <span className="text-primary">Section20 Consult</span>{" "}
-              &mdash; Your Path to Success!
+              Welcome to <span className="text-primary">Section20 Consult</span>
+              &mdash;Your Path to Success!
             </h1>
             <p className="font-medium text-dark text-base lg:text-lg">
               We are a leading study and work consulting firm dedicated to
