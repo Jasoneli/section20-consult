@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { title } from "process";
 import { AiOutlineSend } from "react-icons/ai";
 import ScrollRevealSection from "./ScrollRevealSection";
 
