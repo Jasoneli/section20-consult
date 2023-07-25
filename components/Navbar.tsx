@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="hover:text-red-500" href="/ehac">
-                EHAC
+                EAHAC
               </Link>
             </li>
             <li>
@@ -131,7 +131,7 @@ const Navbar = () => {
               href="/ehac"
               onClick={() => setIsOpen(!isOpen)}
             >
-              EHAC
+              EAHAC
             </Link>
             <Link
               href="/services"
@@ -161,7 +161,7 @@ const Navbar = () => {
               About us
             </a>
             <Link className="hover:text-red-500" href="/ehac">
-              EHAC
+              EAHAC
             </Link>
             <a href="" className="hover:text-pink-500">
               Services

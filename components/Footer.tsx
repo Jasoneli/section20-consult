@@ -39,7 +39,7 @@ const Footer = () => {
             </li>
             <li>
               <Link className="hover:text-red-500" href="/ehac">
-                EHAC
+                EAHAC
               </Link>
             </li>
             <li>

@@ -69,7 +69,7 @@ const Team = () => {
                   className="hover:text-accent"
                   href="mailto:Oathstill@yahoo.co.uk"
                 >
-                  Oathstill@yahoo.co.uk
+                  info@section20consult
                 </Link>
               </p>
             </div>

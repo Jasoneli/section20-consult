@@ -2,7 +2,6 @@
 import { AiOutlineSafety } from "react-icons/ai";
 import { MdOutlineCardTravel } from "react-icons/md";
 import { RiMentalHealthLine } from "react-icons/ri";
-import { LiaSchoolSolid } from "react-icons/lia";
 import ScrollRevealSection from "./ScrollRevealSection";
 
 const EhacServices = () => {
@@ -67,22 +66,6 @@ const EhacServices = () => {
                   cultural adjustments, and stress management.
                 </p>
               </div>
-              {/* <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-2">
-              <span className="text-2xl">
-                <LiaSchoolSolid />
-              </span>
-              <h3 className="text-lg font-bold tracking-wide text-center">
-                Health Education Workshops
-              </h3>
-            </div>
-
-            <p className="lg:text-center">
-              Stay informed and equipped with our engaging health education
-              workshops. We conduct sessions on various topics, such as food
-              safety, personal hygiene, mental health awareness, and more.
-            </p>
-          </div> */}
             </div>
           </div>
         </section>

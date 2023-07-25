@@ -3,9 +3,11 @@ import { AiOutlineSend } from "react-icons/ai";
 import ScrollRevealSection from "./ScrollRevealSection";
 
 const Contact = ({
+  email = "info@section20consult.com",
   title,
   description = " We're eager to hear from you and help you start your journey towards success. For inquiries, fill out the form below, email us at",
 }: {
+  email: string;
   description?: string;
   title?: string;
 }) => {
@@ -29,7 +31,7 @@ const Contact = ({
                 className="font-bold text-rose-300"
                 href="mailto:info@section20consult.com"
               >
-                info@section20consult.com
+                {email}
               </Link>
               , or give us a call at{" "}
               <Link href="tel:+36705780067" className="font-bold text-rose-300">
@@ -41,7 +43,7 @@ const Contact = ({
                 className="font-bold text-rose-300"
               >
                 +233544262825
-              </Link>{" "}
+              </Link>
               . Our office is located at Lapaz, Accra, Ghana. Let&apos;s connect
               and discuss how we can support your aspirations.
             </p>
@@ -84,7 +86,7 @@ const Contact = ({
                 type="submit"
               >
                 <span className="flex text-center justify-center items-center gap-4">
-                  Send <AiOutlineSend />
+                  Subscribe <AiOutlineSend />
                 </span>
               </button>
             </form>

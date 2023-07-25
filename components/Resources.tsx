@@ -12,7 +12,7 @@ const Resources = () => {
             Stay Informed with Our Informative Resources
           </p>
         </div>
-        <div className="max-w-6xl container lg:pb-10 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-5 p-8">
+        <div className="max-w-6xl container lg:pb-10 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-5 p-8 place-items-center">
           <Image
             src="/images/r-1.jpg"
             width={300}
