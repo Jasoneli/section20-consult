@@ -7,7 +7,7 @@ const Contact = ({
   title,
   description = " We're eager to hear from you and help you start your journey towards success. For inquiries, fill out the form below, email us at",
 }: {
-  email: string;
+  email?: string;
   description?: string;
   title?: string;
 }) => {
