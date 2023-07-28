@@ -24,7 +24,7 @@ const JobsAbroad = () => {
               </span>
               <span> Jobs Abroad Programs</span>
             </h3>
-            <p className="text-lg text-dark">
+            <p className="text-dark">
               Maximize your chances of landing your dream job with our
               comprehensive job placement assistance. We maintain strong
               connections with a vast network of employers across various

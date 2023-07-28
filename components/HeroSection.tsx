@@ -13,7 +13,7 @@ const HeroSection = () => {
               Welcome to <span className="text-primary">Section20 Consult</span>
               &mdash;Your Path to Success!
             </h1>
-            <p className="font-medium text-dark text-base lg:text-lg">
+            <p className="font-medium text-dark text-base lg:text-md">
               We are a leading study and work consulting firm dedicated to
               empowering students and professionals in achieving their academic
               and career goals. With our expert guidance and personalized
@@ -37,7 +37,7 @@ const HeroSection = () => {
           </div>
 
           <Image
-            src="/images/header.jpg"
+            src="/images/hero.png"
             width={600}
             height={600}
             alt="header img"

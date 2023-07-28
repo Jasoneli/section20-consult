@@ -14,7 +14,7 @@ const WhoWeAre = () => {
               <h3 className="my-2 text-primary text-lg font-bold">
                 Who We Are:
               </h3>
-              <p className="text-base text-left order-1 lg:order-none lg:text-lg font-medium text-dark">
+              <p className="text-base text-left order-1 lg:order-none font-medium text-dark">
                 At EAHAC, we are a team of passionate and experienced
                 professionals dedicated to promoting health awareness and
                 providing expert guidance for students and travelers venturing

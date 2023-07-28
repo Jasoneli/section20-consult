@@ -53,6 +53,11 @@ const Footer = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link className="hover:text-red-500" href="/blog">
+                Blog
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="flex flex-col  gap-4 justify-end">

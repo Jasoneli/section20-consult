@@ -42,7 +42,7 @@ export default function RootLayout({
       lang="en"
       className={`bg-background ${poppins.variable} ${roboto.variable}`}
     >
-      <body>
+      <body className="min-h-screen">
         <Navbar />
         {children}
         <Footer />

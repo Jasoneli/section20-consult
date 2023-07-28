@@ -15,7 +15,7 @@ const EhacPage = () => {
               Welcome to <span className="text-primary">EAHAC </span> (Education
               Abroad Health Awareness Club)
             </h1>
-            <p className="font-medium text-dark lg:text-xl">
+            <p className="font-medium text-dark lg:text-md">
               Are you a student or an aspiring traveler looking to explore the
               world through educational opportunities abroad? At EAHAC, we
               understand that embarking on an international journey can be an

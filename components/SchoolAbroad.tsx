@@ -15,7 +15,7 @@ const SchoolAbroad = () => {
               </span>
               <span> School Abroad Programs</span>
             </h3>
-            <p className="text-lg text-dark">
+            <p className="text-dark">
               Explore the world of international education with our carefully
               curated study abroad programs. Whether you're a high school
               graduate seeking a bachelor's degree abroad or a professional

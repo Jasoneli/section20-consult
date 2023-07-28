@@ -75,6 +75,11 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link className="hover:text-red-500" href="/blog">
+                Blog
+              </Link>
+            </li>
           </ul>
 
           {/* hamburger button */}
@@ -147,6 +152,13 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <Link
+              href="/blog"
+              className="hover:text-pink-500"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              Blog
+            </Link>
           </div>
         ) : (
           <div
@@ -165,6 +177,9 @@ const Navbar = () => {
             </Link>
             <a href="" className="hover:text-pink-500">
               Services
+            </a>
+            <a href="" className="hover:text-pink-500">
+              Contact
             </a>
             <a href="" className="hover:text-pink-500">
               Contact
