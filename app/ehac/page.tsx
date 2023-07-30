@@ -41,7 +41,6 @@ const EhacPage = () => {
       </ScrollRevealSection>
       <WhoWeAre />
       <EhacServices />
-      <GetInTouch />
       <EhacTeam />
     </>
   );
