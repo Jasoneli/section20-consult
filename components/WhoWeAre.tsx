@@ -1,10 +1,11 @@
 import Image from "next/image";
 import ScrollRevealSection from "./ScrollRevealSection";
+import FancyAnimationSection from "./FancyAnimationSection";
 
 const WhoWeAre = () => {
   return (
     <>
-      <ScrollRevealSection>
+      <FancyAnimationSection>
         <article className="max-w-6xl mx-auto container p-4 lg:my-20">
           <h2 className="text-2xl lg:text-4xl uppercase font-bold text-center my-4 lg:my-10">
             About EHAC
@@ -33,7 +34,7 @@ const WhoWeAre = () => {
             />
           </div>
         </article>
-      </ScrollRevealSection>
+      </FancyAnimationSection>
     </>
   );
 };

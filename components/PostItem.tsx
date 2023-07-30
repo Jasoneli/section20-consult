@@ -7,7 +7,7 @@ const PostItem = ({ id, title, date, image, description }: BlogPost) => {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <li>
+    <li className="hover:translate-y-[-5px] duration-100 transition-all ease-in">
       <div className="flex flex-col shadow-2xl rounded-xl overflow-hidden mb-8">
         <Image src={`${image}`} width={400} height={400} alt={title} />
         <div className="flex flex-col gap-4 pt-4 p-5 bg-textColor text-background">

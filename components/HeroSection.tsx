@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ScrollRevealSection from "./ScrollRevealSection";
+import { useAnimation } from "framer-motion";
 
 const HeroSection = () => {
   return (
@@ -36,12 +38,11 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <Image
+          <img
             src="/images/about.png"
             width={600}
             height={600}
             alt="header img"
-            priority
             className="hidden self-center lg:block  rounded-md"
           />
         </div>

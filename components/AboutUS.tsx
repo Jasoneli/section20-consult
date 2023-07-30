@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import ScrollRevealSection from "./ScrollRevealSection";
+import FancyAnimationSection from "./FancyAnimationSection";
 
 const AboutUS = () => {
   return (
     <>
-      <ScrollRevealSection>
+      <FancyAnimationSection>
         <section id="about" className="lg:my-10">
           <div className="container max-w-6xl p-4 mx-auto text-textColor">
             <h2 className="text-2xl lg:text-4xl  uppercase font-bold text-center">
@@ -40,7 +41,7 @@ const AboutUS = () => {
             </Link>
           </div>
         </section>
-      </ScrollRevealSection>
+      </FancyAnimationSection>
     </>
   );
 };

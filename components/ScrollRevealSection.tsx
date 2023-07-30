@@ -22,7 +22,7 @@ const ScrollRevealSection = ({ children }: { children: ReactNode }) => {
       ref={ref}
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
       {children}
     </motion.section>

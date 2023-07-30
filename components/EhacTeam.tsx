@@ -1,11 +1,48 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { motion, useAnimation } from "framer-motion";
 
 const EhacTeam = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const controls = useAnimation();
+
+  const handleScroll = () => {
+    const section = document.getElementById("fancySection");
+    if (section) {
+      const sectionTop = section.offsetTop;
+      const windowHeight = window.innerHeight;
+      setIsVisible(window.scrollY > sectionTop - windowHeight / 2);
+    }
+  };
+
+  useEffect(() => {
+    const handleScrollThrottled = () => {
+      // Throttle scroll event for performance improvement
+      window.requestAnimationFrame(handleScroll);
+    };
+    window.addEventListener("scroll", handleScrollThrottled);
+    return () => {
+      window.removeEventListener("scroll", handleScrollThrottled);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Animate the section's sliding from the left
+    controls.start({ x: isVisible ? 0 : "-100%" });
+  }, [isVisible, controls]);
+
   return (
-    <section>
+    <motion.section
+      id="fancySection"
+      initial={{ x: "-100%" }}
+      animate={controls}
+      transition={{ duration: 2 }}
+    >
       <div className="container mx-auto max-w-6xl p-4">
-        <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
+        <h2 className="text-2xl lg:text-4xl  uppercase font-bold  text-center">
           Ehac Team
         </h2>
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-10">
@@ -95,7 +132,7 @@ const EhacTeam = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
