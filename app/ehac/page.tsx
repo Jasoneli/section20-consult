@@ -1,6 +1,5 @@
 import EhacServices from "@/components/EhacServices";
 import EhacTeam from "@/components/EhacTeam";
-import GetInTouch from "@/components/GetInTouch";
 import ScrollRevealSection from "@/components/ScrollRevealSection";
 import WhoWeAre from "@/components/WhoWeAre";
 import Image from "next/image";
