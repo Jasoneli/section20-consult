@@ -25,7 +25,7 @@ const AboutUS = () => {
               </p>
 
               <Image
-                src="/images/board.jpg"
+                src="/images/hero.png"
                 width={500}
                 height={500}
                 alt="board"

@@ -48,32 +48,39 @@ const Contact = ({
               and discuss how we can support your aspirations.
             </p>
 
-            <form className="mt-5 flex flex-col lg:grid lg:grid-cols-3  lg:justify-center lg:items-end gap-5">
+            <form className="mt-5 flex flex-col gap-5 lg:w-3/4 mx-auto">
               <div className="flex flex-col">
-                <label
-                  className="font-bold tracking-wider text-lg lg:text-2xl"
-                  htmlFor="name"
-                >
-                  Name
+                <label className="font-bold tracking-wider" htmlFor="firstname">
+                  First name
                 </label>
                 <input
-                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor font-semibold"
+                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor"
                   type="text"
-                  name="name"
-                  id="name"
-                  placeholder="John Doe"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="John"
                   required
                 />
               </div>
               <div className="flex flex-col">
-                <label
-                  className="font-bold tracking-wider text-lg lg:text-2xl"
-                  htmlFor="email"
-                >
+                <label className="font-bold tracking-wider" htmlFor="name">
+                  Last name
+                </label>
+                <input
+                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Doe"
+                  required
+                />
+              </div>
+              <div className="flex flex-col">
+                <label className="font-bold tracking-wider" htmlFor="email">
                   Email
                 </label>
                 <input
-                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor font-semibold"
+                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor"
                   type="email"
                   name="email"
                   id="email"
@@ -81,12 +88,38 @@ const Contact = ({
                   required
                 />
               </div>
+              <div className="flex flex-col">
+                <label className="font-bold tracking-wider" htmlFor="phone">
+                  Phone number
+                </label>
+                <input
+                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="+233544262825"
+                  required
+                />
+              </div>
+              <div className="flex flex-col">
+                <label className="font-bold tracking-wider" htmlFor="message">
+                  What can we help you with?
+                </label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols={30}
+                  rows={10}
+                  placeholder="Write your message here!"
+                  className="border-2 px-4 py-2 rounded-md outline-none placeholder:text-textColor text-textColor"
+                ></textarea>
+              </div>
               <button
                 className="bg-accent text-background font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center  hover:opacity-90"
                 type="submit"
               >
                 <span className="flex text-center justify-center items-center gap-4">
-                  Subscribe <AiOutlineSend />
+                  Submit <AiOutlineSend />
                 </span>
               </button>
             </form>
