@@ -74,34 +74,6 @@ const EhacTeam = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-5 items-center">
-            <Image
-              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
-              src="/images/team-3.jpg"
-              width={200}
-              height={200}
-              alt="ceo"
-            />
-            <div>
-              <h3 className="font-bold text-xl">Ebenezer Ngoah</h3>
-              <small className="text-[#7d7c83] font-semibold">
-                Vice President
-              </small>
-              <p>
-                <Link className="hover:text-accent" href="tel:+233543955902">
-                  +233544262825
-                </Link>
-              </p>
-              <p>
-                <Link
-                  className="hover:text-accent"
-                  href="mailto:Oathstill@yahoo.co.uk"
-                >
-                  info@section20consult
-                </Link>
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </motion.section>

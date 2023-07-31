@@ -84,9 +84,9 @@ const Team = () => {
             />
             <div>
               <h3 className="font-bold text-xl">Ebenezer Ngoah</h3>
-              <small className="text-[#7d7c83] font-semibold">
+              {/* <small className="text-[#7d7c83] font-semibold">
                 Vice President
-              </small>
+              </small> */}
               <p>
                 <Link className="hover:text-accent" href="tel:+233543955902">
                   +233544262825
