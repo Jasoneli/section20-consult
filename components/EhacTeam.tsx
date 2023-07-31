@@ -45,7 +45,7 @@ const EhacTeam = () => {
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  text-center">
           Eahac Team
         </h2>
-        <div className="mt-12 flex justify-center items-center gap-20">
+        <div className="mt-12 flex flex-col lg:flex-row justify-center items-center gap-20">
           <div className="flex flex-col gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
