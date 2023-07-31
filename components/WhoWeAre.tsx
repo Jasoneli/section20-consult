@@ -8,7 +8,7 @@ const WhoWeAre = () => {
       <FancyAnimationSection>
         <article className="max-w-6xl mx-auto container p-4 lg:my-20">
           <h2 className="text-2xl lg:text-4xl uppercase font-bold text-center my-4 lg:my-10">
-            About EHAC
+            About EAHAC
           </h2>
           <div className="flex flex-col lg:flex-row gap-10 items-center">
             <div>

@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import ScrollRevealSection from "./ScrollRevealSection";
+// import ScrollRevealSection from "./ScrollRevealSection";
 
 const Team = () => {
   return (
-    <ScrollRevealSection>
+    <section>
       <div className="max-w-6xl p-4 mx-auto container">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
           Meet Our Team
@@ -104,7 +104,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-    </ScrollRevealSection>
+    </section>
   );
 };
 

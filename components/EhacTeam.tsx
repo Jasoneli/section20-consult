@@ -43,37 +43,9 @@ const EhacTeam = () => {
     >
       <div className="container mx-auto max-w-6xl p-4">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  text-center">
-          Ehac Team
+          Eahac Team
         </h2>
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-10">
-          <div className="flex flex-col gap-5 items-center">
-            <Image
-              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
-              src="/images/team-1.jpg"
-              width={200}
-              height={200}
-              alt="ceo"
-            />
-            <div>
-              <h3 className="font-bold text-xl">Clement Kojo Acquah</h3>
-              <small className="text-[#7d7c83] font-semibold">
-                Founder & CEO
-              </small>
-              <p>
-                <Link className="hover:text-accent" href="tel:+36705780067">
-                  +36705780067
-                </Link>
-              </p>
-              <p>
-                <Link
-                  className="hover:text-accent"
-                  href="mailto:ckacquah@section20consult.com"
-                >
-                  ckacquah@section20consult.com
-                </Link>
-              </p>
-            </div>
-          </div>
+        <div className="mt-12 flex justify-center items-center gap-20">
           <div className="flex flex-col  gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"

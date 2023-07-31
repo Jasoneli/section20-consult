@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AiOutlineSend } from "react-icons/ai";
-import ScrollRevealSection from "./ScrollRevealSection";
+// import ScrollRevealSection from "./ScrollRevealSection";
 
 const Contact = ({
   email = "info@section20consult.com",
@@ -13,7 +13,7 @@ const Contact = ({
 }) => {
   return (
     <>
-      <ScrollRevealSection>
+      <section>
         <div id="contact" className="my-10 text-background">
           <div className="container max-w-6xl mx-auto bg-textColor p-20 rounded-md shadow-2xl">
             {title === "ehac" ? (
@@ -125,7 +125,7 @@ const Contact = ({
             </form>
           </div>
         </div>
-      </ScrollRevealSection>
+      </section>
     </>
   );
 };
