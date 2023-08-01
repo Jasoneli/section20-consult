@@ -6,7 +6,7 @@ import React from "react";
 const Team = () => {
   return (
     <section>
-      <div className="max-w-6xl p-4 mx-auto container">
+      <div className="max-w-6xl p-4 mx-auto container mt-10">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
           Meet Our Team
         </h2>
@@ -49,13 +49,13 @@ const Team = () => {
           <div className="flex flex-col  gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
-              src="/images/team-2.jpg"
+              src="/images/teaml-2.jpg"
               width={200}
               height={200}
               alt="ceo"
             />
             <div>
-              <h3 className="font-bold text-xl">Elizabeth Kesse</h3>
+              <h3 className="font-bold text-xl">Elizabeth Kessie</h3>
               <small className="text-[#7d7c83] font-semibold">
                 Ghana Branch Manager
               </small>
@@ -69,7 +69,7 @@ const Team = () => {
                   className="hover:text-accent"
                   href="mailto:Oathstill@yahoo.co.uk"
                 >
-                  info@section20consult
+                  elizkessie@section20consult.com
                 </Link>
               </p>
             </div>
@@ -97,7 +97,7 @@ const Team = () => {
                   className="hover:text-accent"
                   href="mailto:Oathstill@yahoo.co.uk"
                 >
-                  info@section20consult
+                  ebenngoah@section20consult.com
                 </Link>
               </p>
             </div>

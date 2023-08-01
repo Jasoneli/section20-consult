@@ -62,3 +62,19 @@ h3 {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
+
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(60, 39%, 9%, 0.732),
+      hsla(60, 39%, 9%, 0.824)
+    ),
+    url("/images/about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.h-80 {
+  height: 80vh;
+}

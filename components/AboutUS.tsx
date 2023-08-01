@@ -6,31 +6,37 @@ import FancyAnimationSection from "./FancyAnimationSection";
 const AboutUS = () => {
   return (
     <>
-      <FancyAnimationSection>
-        <section id="about" className="lg:my-10">
+      <>
+        <section id="about" className="lg:my-14">
           <div className="container max-w-6xl p-4 mx-auto text-textColor">
             <h2 className="text-2xl lg:text-4xl  uppercase font-bold text-center">
               About us
             </h2>
-            <p className="text-center text-base lg:text-lg mt-2 font-semibold text-dark">
-              Our Vision: Empowering Your Dreams
+            <p className="text-center text-base lg:text-lg mt-8 font-semibold text-dark ">
+              <span className="text-primary">Our Vision:</span> To empower and
+              inspire students of all backgrounds to achieve their full
+              potential through quality education and guidance.
             </p>
-            <article className="flex flex-col  gap-8 p-4 justify-center items-center">
-              <p className="text-base text-left order-1 lg:order-none lg:text-lg font-medium text-dark">
-                At Section20 Consult, our vision is to become the ultimate
-                catalyst for your dreams. We are driven by the belief that
-                everyone deserves the opportunity to excel in their chosen field
-                and explore global possibilities. With a team of experienced
-                consultants and industry experts, we are committed to providing
-                tailored solutions that match your unique aspirations.
+            <article className="flex flex-col justify-between items-center lg:flex-row my-14 gap-8">
+              <p className="text-base text-left order-3 lg:order-none text-dark ">
+                Our mission is to provide comprehensive and personalized
+                guidance to students and professionals, ensuring they make
+                informed decisions about their education and career paths. We
+                strive to provide access to the best educational opportunities,
+                resources, and support systems, enabling students to excel
+                academically, professionally, and personally. Through our
+                services, we aim to make a positive and lasting impact on the
+                lives of students and professionals (both skilled and
+                unskilled), helping them shape a brighter future for themselves
+                and society.
               </p>
 
               <Image
-                src="/images/hero.png"
+                src="/images/about-img.png"
                 width={500}
                 height={500}
                 alt="board"
-                className="rounded-md shadow-md"
+                className="rounded-full border-2 border-primary shadow-md order-2 lg:order-none"
               />
             </article>
             <Link
@@ -41,7 +47,7 @@ const AboutUS = () => {
             </Link>
           </div>
         </section>
-      </FancyAnimationSection>
+      </>
     </>
   );
 };
