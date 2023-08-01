@@ -9,13 +9,13 @@ const EhacPage = () => {
   return (
     <>
       <ScrollRevealSection>
-        <div className="max-w-6xl p-4 container mx-auto flex mt-10 gap-10">
+        <div className="max-w-6xl p-4 container mx-auto flex items-center mt-10 gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="lg:text-4xl font-bold text-2xl">
               Welcome to <span className="text-primary">EAHAC </span> (Education
               Abroad Health Awareness Club)
             </h1>
-            <p className="font-medium text-sm text-dark lg:text-md">
+            <p className="font-medium text-sm text-dark lg:text-lg">
               Are you a student or an aspiring traveler looking to explore the
               world through educational opportunities abroad? At EAHAC, we
               understand that embarking on an international journey can be an
@@ -23,7 +23,7 @@ const EhacPage = () => {
               challenges and health considerations.
             </p>
             <Link
-              className="py-3 px-10 bg-gradient-to-tr from-primary to-red-500 self-start rounded-xl text-background font-bold lg:text-xl tracking-wide shadow-xl hover:opacity-90 hover:translate-y-[-2px] duration-200"
+              className="py-3 px-10 bg-gradient-to-tr from-primary to-red-500 self-start rounded-xl text-background font-bold lg:text-lg tracking-wide shadow-xl hover:opacity-90 hover:translate-y-[-2px] duration-200"
               href="#contact"
             >
               Get Started Today
