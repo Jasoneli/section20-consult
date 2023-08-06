@@ -1,29 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-// import ScrollRevealSection from "./ScrollRevealSection";
 
-const Team = () => {
+const Issues = () => {
   return (
-    <section>
-      <div className="max-w-6xl p-4 mx-auto container mt-10">
-        <h2 className="text-2xl lg:text-4xl  uppercase font-bold  lg:text-center">
-          Meet Our Team
+    <section className="my-20">
+      <div className="container mx-auto max-w-6xl px-5 py-10">
+        <h2 className="text-2xl lg:text-4xl  uppercase font-bold my-8  text-center">
+          Having Issues or Need Help?
         </h2>
-        <p className="lg:text-center text-left text-base mt-2 font-semibold text-[#7d7c83]">
-          At Section20 Consult, our success lies in the expertise and dedication
-          of our consulting team. Each member brings a wealth of knowledge and
-          experience, ensuring that our clients receive the best guidance and
-          support throughout their journey. Get to know our team of passionate
-          consultants:
+        <p className="text-left lg:text-center text-base my-5 font-semibold ">
+          We understand that sometimes things may not go as smoothly as planned.
+          Whether you&apos;re facing technical problems, have questions about
+          our services, or need to report a concern, we&apos;re here to listen
+          and assist. Our dedicated support team is ready to address your issues
+          promptly and find a resolution that meets your satisfaction. Please
+          don&apos;t hesitate to reach out &mdash; your feedback is invaluable
+          in helping us improve our platform.
         </p>
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-10 text-center">
           <div className="flex flex-col gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
               src="/images/team-1.jpg"
-              width={150}
-              height={150}
+              width={170}
+              height={170}
               alt="ceo"
             />
             <div>
@@ -108,4 +108,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Issues;

@@ -115,7 +115,7 @@ const Contact = ({
                 ></textarea>
               </div>
               <button
-                className="bg-accent text-background font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center  hover:opacity-90"
+                className="bg-accent text-background font-semibold tracking-wider p-3 rounded-md  w-full  uppercase text-center  hover:bg-rose-800 duration-100 transition-all"
                 type="submit"
               >
                 <span className="flex text-center justify-center items-center gap-4">

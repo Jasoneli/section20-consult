@@ -1,6 +1,7 @@
 import EhacServices from "@/components/EhacServices";
 import EhacTeam from "@/components/EhacTeam";
 import ScrollRevealSection from "@/components/ScrollRevealSection";
+import Support from "@/components/Support";
 import WhoWeAre from "@/components/WhoWeAre";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,9 +25,9 @@ const EhacPage = () => {
             </p>
             <Link
               className="py-3 px-10 bg-gradient-to-tr from-primary to-red-500 self-start rounded-xl text-background font-bold lg:text-lg tracking-wide shadow-xl hover:opacity-90 hover:translate-y-[-2px] duration-200"
-              href="#contact"
+              href="#support"
             >
-              Get Started Today
+              Donate Today
             </Link>
           </div>
           <Image
@@ -40,6 +41,7 @@ const EhacPage = () => {
       </ScrollRevealSection>
       <WhoWeAre />
       <EhacServices />
+      <Support />
       <EhacTeam />
     </>
   );
