@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
+import ScrollRevealSection from "./ScrollRevealSection";
 
 const EhacTeam = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,19 +35,20 @@ const EhacTeam = () => {
     controls.start({ x: isVisible ? 0 : "-100%" });
   }, [isVisible, controls]);
 
+  // motion.section
+  //     id="fancySection"
+  //     initial={{ x: "-100%" }}
+  //     animate={controls}
+  //     transition={{ duration: 2 }}
+
   return (
-    <motion.section
-      id="fancySection"
-      initial={{ x: "-100%" }}
-      animate={controls}
-      transition={{ duration: 2 }}
-    >
+    <ScrollRevealSection>
       <div className="container mx-auto max-w-6xl p-4">
         <h2 className="text-2xl lg:text-4xl  uppercase font-bold  text-center">
           Eahac Team
         </h2>
         <div className="mt-12 flex flex-col lg:flex-row justify-center items-center gap-20">
-          <div className="flex flex-col gap-5 items-center">
+          <div className="flex flex-col gap-5 text-center items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
               src="/images/team-1.jpg"
@@ -56,9 +58,7 @@ const EhacTeam = () => {
             />
             <div>
               <h3 className="font-bold text-xl">Clement Kojo Acquah</h3>
-              <small className="text-[#7d7c83] font-semibold">
-                Founder & CEO
-              </small>
+              <small className="text-[#7d7c83] font-semibold">Director</small>
               <p>
                 <Link className="hover:text-accent" href="tel:+36705780067">
                   +36705780067
@@ -74,7 +74,7 @@ const EhacTeam = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col  gap-5 items-center">
+          <div className="flex flex-col  gap-5 text-center items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
               src="/images/ehac-team.jpg"
@@ -85,7 +85,7 @@ const EhacTeam = () => {
             <div>
               <h3 className="font-bold text-xl">Emmanuel Osei</h3>
               <small className="text-[#7d7c83] font-semibold">
-                Federation of Helping Hands
+                Deputy Director
               </small>
               <p>
                 <Link className="hover:text-accent" href="tel:+233554807083">
@@ -104,7 +104,7 @@ const EhacTeam = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </ScrollRevealSection>
   );
 };
 

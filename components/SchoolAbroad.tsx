@@ -13,7 +13,7 @@ const SchoolAbroad = () => {
               <span className="font-bold text-3xl bg-[#d2d2cf] p-4 rounded-full text-center">
                 01
               </span>
-              <span> School Abroad Programs</span>
+              <span> Education Abroad Programs</span>
             </h3>
             <p className="text-dark">
               Explore the world of international education with our carefully

@@ -53,11 +53,11 @@ const Footer = () => {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="hover:text-red-500" href="/blog">
                 Blog
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="flex flex-col  gap-4 justify-end">

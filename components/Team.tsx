@@ -17,7 +17,7 @@ const Team = () => {
           support throughout their journey. Get to know our team of passionate
           consultants:
         </p>
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-10">
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-10 text-center">
           <div className="flex flex-col gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
@@ -46,6 +46,34 @@ const Team = () => {
               </p>
             </div>
           </div>
+          <div className="flex flex-col gap-5 items-center">
+            <Image
+              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
+              src="/images/team-3.jpg"
+              width={200}
+              height={200}
+              alt="ceo"
+            />
+            <div>
+              <h3 className="font-bold text-xl">Ebenezer Ngoah</h3>
+              <small className="text-[#7d7c83] font-semibold">
+                General Manager
+              </small>
+              <p>
+                <Link className="hover:text-accent" href="tel:+233543955902">
+                  +233544262825
+                </Link>
+              </p>
+              <p>
+                <Link
+                  className="hover:text-accent"
+                  href="mailto:Oathstill@yahoo.co.uk"
+                >
+                  ebenngoah@section20consult.com
+                </Link>
+              </p>
+            </div>
+          </div>
           <div className="flex flex-col  gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
@@ -70,34 +98,6 @@ const Team = () => {
                   href="mailto:Oathstill@yahoo.co.uk"
                 >
                   elizkessie@section20consult.com
-                </Link>
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-5 items-center">
-            <Image
-              className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
-              src="/images/team-3.jpg"
-              width={200}
-              height={200}
-              alt="ceo"
-            />
-            <div>
-              <h3 className="font-bold text-xl">Ebenezer Ngoah</h3>
-              {/* <small className="text-[#7d7c83] font-semibold">
-                Vice President
-              </small> */}
-              <p>
-                <Link className="hover:text-accent" href="tel:+233543955902">
-                  +233544262825
-                </Link>
-              </p>
-              <p>
-                <Link
-                  className="hover:text-accent"
-                  href="mailto:Oathstill@yahoo.co.uk"
-                >
-                  ebenngoah@section20consult.com
                 </Link>
               </p>
             </div>

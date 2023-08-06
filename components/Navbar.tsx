@@ -75,11 +75,11 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="hover:text-red-500" href="/blog">
                 Blog
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* hamburger button */}
@@ -152,13 +152,13 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="hover:text-pink-500"
               onClick={() => setIsOpen(!isOpen)}
             >
               Blog
-            </Link>
+            </Link> */}
           </div>
         ) : (
           <div

@@ -32,9 +32,9 @@ const AboutUS = () => {
               </p>
 
               <Image
-                src="/images/about-img.png"
-                width={500}
-                height={500}
+                src="/images/about-pic.png"
+                width={450}
+                height={450}
                 alt="board"
                 className="rounded-full border-2 border-primary shadow-md order-2 lg:order-none"
               />

@@ -26,13 +26,13 @@ const EHAC = () => {
             </p>
           </div>
           <div className="">
-            <Image
+            {/* <Image
               src="/images/work-2.jpg"
               width={600}
               height={600}
               alt="school logo"
               className="rounded-xl shadow-2xl hidden lg:block"
-            />
+            /> */}
           </div>
         </div>
       </div>
