@@ -60,19 +60,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-red-500" href="/ehac">
-                EAHAC
-              </Link>
-            </li>
-            <li>
               <Link className="hover:text-red-500" href="/services">
                 Services
               </Link>
             </li>
-
             <li>
               <Link className="hover:text-red-500" href="#contact">
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-red-500" href="/ehac">
+                EAHAC
               </Link>
             </li>
             {/* <li>
@@ -132,13 +131,6 @@ const Navbar = () => {
               About us
             </Link>
             <Link
-              className="hover:text-red-500"
-              href="/ehac"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              EAHAC
-            </Link>
-            <Link
               href="/services"
               className="hover:text-pink-500"
               onClick={() => setIsOpen(!isOpen)}
@@ -151,6 +143,13 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               Contact
+            </Link>
+            <Link
+              className="hover:text-red-500"
+              href="/ehac"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              EAHAC
             </Link>
             {/* <Link
               href="/blog"
@@ -172,9 +171,6 @@ const Navbar = () => {
             <a href="" className="hover:text-pink-500">
               About us
             </a>
-            <Link className="hover:text-red-500" href="/ehac">
-              EAHAC
-            </Link>
             <a href="" className="hover:text-pink-500">
               Services
             </a>
@@ -184,6 +180,9 @@ const Navbar = () => {
             <a href="" className="hover:text-pink-500">
               Contact
             </a>
+            <Link className="hover:text-red-500" href="/ehac">
+              EAHAC
+            </Link>
           </div>
         )}
       </motion.nav>

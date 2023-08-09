@@ -21,7 +21,7 @@ const Team = () => {
           <div className="flex flex-col gap-5 items-center">
             <Image
               className="rounded-full border-2 border-textColor object-cover shadow-2xl shadow-secondary"
-              src="/images/team-1.jpg"
+              src="/images/ck.jpg"
               width={150}
               height={150}
               alt="ceo"

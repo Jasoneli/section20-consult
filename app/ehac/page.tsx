@@ -13,8 +13,8 @@ const EhacPage = () => {
         <div className="max-w-6xl p-4 container mx-auto flex items-center mt-10 gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="lg:text-4xl font-bold text-2xl">
-              Welcome to <span className="text-primary">EAHAC </span> (Education
-              Abroad Health Awareness Club)
+              Welcome to <span className="text-primary">EAHAC Global </span>{" "}
+              (Education Abroad Health Awareness Club)
             </h1>
             <p className="font-medium text-sm text-dark lg:text-lg">
               Are you a student or an aspiring traveler looking to explore the

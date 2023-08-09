@@ -7,7 +7,7 @@ const WhoWeAre = () => {
     <>
       <article className="max-w-6xl mx-auto container p-4 lg:my-20 ehac-section">
         <h2 className="text-2xl lg:text-3xl uppercase font-bold text-center my-4 lg:my-10">
-          About EAHAC
+          About EAHAC Global
         </h2>
         <div className="flex flex-col  gap-10 items-center">
           <div>

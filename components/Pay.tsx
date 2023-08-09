@@ -33,7 +33,7 @@ const Pay = () => {
               </div>
               <Link
                 href="#"
-                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:opacity-90 transition-all duration-75"
+                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:bg-background hover:text-rose-600 transition-all duration-75"
               >
                 Pay
               </Link>
@@ -62,7 +62,7 @@ const Pay = () => {
               </div>
               <Link
                 href="#"
-                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:opacity-90 transition-all duration-75"
+                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:bg-background hover:text-rose-600 transition-all duration-75"
               >
                 Pay
               </Link>
@@ -92,7 +92,7 @@ const Pay = () => {
               </div>
               <Link
                 href="#"
-                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:opacity-90 transition-all duration-75"
+                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:bg-background hover:text-rose-600 transition-all duration-75"
               >
                 Pay
               </Link>
@@ -101,7 +101,7 @@ const Pay = () => {
 
           <div className="card">
             <Image
-              src="/images/gh-gcb.jpg"
+              src="/images/cal-logo.jpg"
               width={200}
               height={200}
               alt="paypal logo"
@@ -122,7 +122,7 @@ const Pay = () => {
               </div>
               <Link
                 href="#"
-                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:opacity-90 transition-all duration-75"
+                className="bg-rose-600 w-full block mt-4 p-2 font-bold text-lg rounded-md shadow-2xl tracking-wider hover:bg-background hover:text-rose-600 transition-all duration-100"
               >
                 Pay
               </Link>
