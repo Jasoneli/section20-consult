@@ -13,14 +13,14 @@ const WhoWeAre = () => {
           <div>
             <h3 className="my-2 text-primary text-xl font-bold">Who We Are:</h3>
             <p className="tracking-wide text-left  font-medium text-dark">
-              EAHAC was created to educate and empower students about global
-              health issues and promote a sense of social responsibility. We
-              seek to organize health symposia, carry out health screening
+              EAHAC Global was created to educate and empower students about
+              global health issues and promote a sense of social responsibility.
+              We seek to organize health symposia, carry out health screening
               focusing on STIs and Hepatitis. It is our way of giving back to
               society and therefore it is free to join. It is our hope that
               eventually all high schools in Ghana and beyond will embrace the
               vision. We are going to involve students by selecting leaders to
-              oversee the activities of the EAHAC.
+              oversee the activities of the EAHAC Global.
             </p>
           </div>
           <div>

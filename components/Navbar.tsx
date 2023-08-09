@@ -3,8 +3,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +70,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="hover:text-red-500" href="/ehac">
-                EAHAC
+                EAHAC Global
               </Link>
             </li>
             {/* <li>
@@ -149,7 +148,7 @@ const Navbar = () => {
               href="/ehac"
               onClick={() => setIsOpen(!isOpen)}
             >
-              EAHAC
+              EAHAC Global
             </Link>
             {/* <Link
               href="/blog"
@@ -181,7 +180,7 @@ const Navbar = () => {
               Contact
             </a>
             <Link className="hover:text-red-500" href="/ehac">
-              EAHAC
+              EAHAC Global
             </Link>
           </div>
         )}

@@ -18,8 +18,8 @@ const EhacPage = () => {
             </h1>
             <p className="font-medium text-sm text-dark lg:text-lg">
               Are you a student or an aspiring traveler looking to explore the
-              world through educational opportunities abroad? At EAHAC, we
-              understand that embarking on an international journey can be an
+              world through educational opportunities abroad? At EAHAC Global,
+              we understand that embarking on an international journey can be an
               exhilarating experience, but it also comes with its unique
               challenges and health considerations.
             </p>

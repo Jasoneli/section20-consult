@@ -50,7 +50,7 @@ const Footer = () => {
             </li>
             <li>
               <Link className="hover:text-red-500" href="/ehac">
-                EAHAC
+                EAHAC Global
               </Link>
             </li>
             {/* <li>
