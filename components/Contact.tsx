@@ -31,7 +31,7 @@ const Contact = ({
   const sendEmail: any = (e: FormEvent) => {
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_KEY as string,
+        process.env.NEXT_PUBLIC_SERVICE_ID as string,
         process.env.NEXT_PUBLIC_TEMPLATE_ID as string,
         form.current!,
         process.env.NEXT_PUBLIC_PUBLIC_KEY as string
