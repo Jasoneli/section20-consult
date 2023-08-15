@@ -54,9 +54,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-red-500" href="#about">
+              <a className="hover:text-red-500" href="#about">
                 About us
-              </Link>
+              </a>
             </li>
             <li>
               <Link className="hover:text-red-500" href="/services">
@@ -64,9 +64,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-red-500" href="#contact">
+              <a className="hover:text-red-500" href="#contact">
                 Contact
-              </Link>
+              </a>
             </li>
             <li>
               <Link className="hover:text-red-500" href="/ehac">
@@ -122,13 +122,13 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
+            <a
               href="#about"
               className="hover:text-pink-500"
               onClick={() => setIsOpen(!isOpen)}
             >
               About us
-            </Link>
+            </a>
             <Link
               href="/services"
               className="hover:text-pink-500"
@@ -136,13 +136,13 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
+            <a
               href="#contact"
               className="hover:text-pink-500"
               onClick={() => setIsOpen(!isOpen)}
             >
               Contact
-            </Link>
+            </a>
             <Link
               className="hover:text-red-500"
               href="/ehac"
@@ -167,13 +167,13 @@ const Navbar = () => {
             <Link href="/" className="hover:text-pink-500">
               Home
             </Link>
-            <a href="" className="hover:text-pink-500">
+            <a href="#about" className="hover:text-pink-500">
               About us
             </a>
-            <a href="" className="hover:text-pink-500">
+            <a href="/services" className="hover:text-pink-500">
               Services
             </a>
-            <a href="" className="hover:text-pink-500">
+            <a href="#contact" className="hover:text-pink-500">
               Contact
             </a>
             <a href="" className="hover:text-pink-500">
