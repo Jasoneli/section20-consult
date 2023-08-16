@@ -23,12 +23,12 @@ const HeroSection = () => {
               for a successful future.
             </p>
             <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
-              <Link
+              <a
                 className="px-4 py-2 font-semibold tracking-wide border-none rounded-md border-textColor hover:shadow-2xl hover:translate-y-[-2px] duration-200 transition-all bg-primary text-background text-center hover:bg-background hover:text-primary"
                 href="#contact"
               >
                 Contact us
-              </Link>
+              </a>
               <Link
                 className="px-4 py-2 tracking-wide border-background border-2 rounded-md  text-background  hover:shadow-2xl hover:translate-y-[-2px]  duration-200 transition-all outline-none  font-semibold text-center hover:bg-red-600"
                 href="/services"

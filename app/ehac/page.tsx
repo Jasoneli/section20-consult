@@ -23,12 +23,12 @@ const EhacPage = () => {
               exhilarating experience, but it also comes with its unique
               challenges and health considerations.
             </p>
-            <Link
+            <a
               className="py-3 px-10 bg-gradient-to-tr from-primary to-red-500 self-start rounded-xl text-background font-bold lg:text-lg tracking-wide shadow-xl hover:opacity-90 hover:translate-y-[-2px] duration-200"
               href="#support"
             >
               Donate Today
-            </Link>
+            </a>
           </div>
           <Image
             src="/images/eahac-logo.jpg"
